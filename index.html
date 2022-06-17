@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Charis+SIL:ital@1&display=swap" rel="stylesheet">
+        <title>juego</title>
+    </head>
+    <body>
+       
+        <div class="caja">
+       
+            <div class="titulo"><h1>ADIVINA EL NUMERO</h1></div>
+
+            <div class="text" id="text">  
+                <h2>1) Tenes que adivinar un número aleatorio entre 1 y 100.<br>
+                2) Tenes 10 posibilidades para adivinar el número.</h2>
+            </div>
+
+            <div class="counter" id="counter"><h3></h3></div>
+       
+            <div class="start" id="start">
+
+                <button type="button" class="boton" id="buttonStart">Comenzar</button>
+           
+            </div> 
+               
+            <form name="formulario" id="input" class="input">
+            
+                <input type="number" name="numero" class="numero" id="number" min="1" max="100" requaire>
+
+                <button type="button" class="boton form" id="buttonForm">Probar</button>
+            
+            </form>   
+            
+            <form class="finish" id="finish">
+
+                <input type="submit" class="boton" id="buttonFinish" value="Volver a jugar" name="Volver a jugar">
+           
+            </form> 
+       
+        </div>
+        <script src="main.js"></script>
+    
+    </body>
+</html>
